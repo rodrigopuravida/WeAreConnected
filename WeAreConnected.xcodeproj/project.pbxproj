@@ -13,6 +13,7 @@
 		483B02EA218C0CBF009CD07F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 483B02E8218C0CBF009CD07F /* Main.storyboard */; };
 		483B02EC218C0CC2009CD07F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 483B02EB218C0CC2009CD07F /* Assets.xcassets */; };
 		483B02EF218C0CC2009CD07F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 483B02ED218C0CC2009CD07F /* LaunchScreen.storyboard */; };
+		483B02F9218C1AC8009CD07F /* Report.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483B02F8218C1AC8009CD07F /* Report.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		483B02EB218C0CC2009CD07F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		483B02EE218C0CC2009CD07F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		483B02F0218C0CC2009CD07F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		483B02F8218C1AC8009CD07F /* Report.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Report.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		483B02D6218C0CBF009CD07F = {
 			isa = PBXGroup;
 			children = (
+				483B02F8218C1AC8009CD07F /* Report.swift */,
 				483B02E1218C0CBF009CD07F /* WeAreConnected */,
 				483B02E0218C0CBF009CD07F /* Products */,
 			);
@@ -141,6 +144,7 @@
 				483B02E7218C0CBF009CD07F /* SecondViewController.swift in Sources */,
 				483B02E3218C0CBF009CD07F /* AppDelegate.swift in Sources */,
 				483B02E5218C0CBF009CD07F /* FirstViewController.swift in Sources */,
+				483B02F9218C1AC8009CD07F /* Report.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 33F9QSSJDD;
 				INFOPLIST_FILE = WeAreConnected/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,6 +312,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 33F9QSSJDD;
 				INFOPLIST_FILE = WeAreConnected/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
